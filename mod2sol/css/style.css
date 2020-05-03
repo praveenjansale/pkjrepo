@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container{
+  margin: 10px;
+}
+.container > .element {
+  border: 1px solid black;
+  background-color: #FEFC8F;
+  float: left;
+  margin: 10px;
+  height: auto;
+  position: relative;
+}
+
+h3 {
+    text-align: center;
+    width : 150px;
+    border: 1px solid black;
+    border-top: 0;
+    border-right: 0;
+    margin-left: auto;
+    padding: 0 20px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+#courtext,#infatext,#htmltext{
+  padding: 0 20px 10px;
+}
+
+#coursera{
+  background-color:#900C3F;
+  color: #FFFFFF;
+  }
+#informatica{
+  background-color:#290491;
+  color: #9CF622;
+  }
+#html{
+  background-color:#F60A40;
+  color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+  #div1, #div2, #div3 {
+    width: calc((100% - 80px)/3);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #div1, #div2{    
+    width: calc((100% - 60px)/2);
+  }
+  #div3{  	
+  	width: calc(100% - 40px);
+  }
+  
+}
+
+@media (max-width: 767px){
+	#div1, #div2, #div3{
+		width: calc(100% - 40px);
+	}
+}
